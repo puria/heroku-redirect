@@ -15,7 +15,7 @@ heroku config:add REDIRECT_STATUS=301
 
 ## Deployment
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/puria/heroku-redirect)
 
 If the old app that you're redirecting from isn't a Node app you'll need to change the [buildpack](https://devcenter.heroku.com/articles/buildpacks):
 
